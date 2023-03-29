@@ -63,4 +63,4 @@
 
 <div>
   <h3>Outliers</h3>
-  <p>The following proportions represent the number of data points that are more than 2.6 standard deviations away from the mean for
+  <p>The following proportions represent the number of data points that are more than 2.6 standard deviations away from the mean for each column in the dataset.Then the result is printed for each column in the dataset.
