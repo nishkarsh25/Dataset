@@ -11,7 +11,7 @@
       <figcaption>KDE Plot 1</figcaption>
     </figure>
     <figure style="margin: 10px;">
-      <img src="kde2.png" alt="KDE Plot 2">
+      <img src="kde2.png" alt=" KDE Plot 2">
       <figcaption>KDE Plot 2</figcaption>
     </figure>
     <figure style="margin: 10px;">
