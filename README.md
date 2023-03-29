@@ -1,66 +1,21 @@
-<h2>Dataset</h2>
+# Exploratory Data Analysis using Python
 
-<p>The code imports necessary libraries such as <code>NumPy</code>, <code>Matplotlib</code>, <code>Seaborn</code>, <code>Pandas</code>, and <code>Scipy.stats</code> for data manipulation, visualization, and statistical analysis. It then reads a CSV file named "dataset.csv" and creates a list of column names. The code then plots kernel density estimation (KDE) plots for each column in the dataset using Seaborn's <code>kdeplot</code> function.</p>
+The following Python code performs an exploratory data analysis on a CSV file named "dataset.csv". The code uses various Python libraries such as:
 
-<div>
-  <h3>KDE Plots</h3>
-  <p>The following plots show the kernel density estimation (KDE) for each column in the dataset:</p>
-  <div style="display: flex; flex-wrap: wrap;">
-    <figure style="margin: 10px;">
-      <img src="kde1.png" alt="KDE Plot 1">
-      <figcaption>KDE Plot 1</figcaption>
-    </figure>
-    <figure style="margin: 10px;">
-      <img src="kde2.png" alt=" KDE Plot 2">
-      <figcaption>KDE Plot 2</figcaption>
-    </figure>
-    <figure style="margin: 10px;">
-      <img src="kde3.png" alt="KDE Plot 3">
-      <figcaption>KDE Plot 3</figcaption>
-    </figure>
-  </div>
-</div>
+- NumPy
+- Matplotlib
+- Seaborn
+- Pandas
+- Scipy.stats
 
-<div>
-  <h3>Correlation Heatmap</h3>
-  <p>The following heatmap shows the correlation matrix between all pairs of columns in the dataset:</p>
-  <figure>
-    <img src="heatmap.png" alt="Correlation Heatmap">
-    <figcaption>Correlation Heatmap</figcaption>
-  </figure>
-</div>
+## Data Analysis Steps
 
-<div>
-  <h3>Joint Probability Distributions</h3>
-  <p>The following plots show the joint probability distribution and correlation between each pair of columns in the dataset:</p>
-  <div style="display: flex; flex-wrap: wrap;">
-    <figure style="margin: 10px;">
-      <img src="wireframe1.png" alt="Wireframe Plot 1">
-      <figcaption>Wireframe Plot 1</figcaption>
-    </figure>
-    <figure style="margin: 10px;">
-      <img src="scatter1.png" alt="Scatter Plot 1">
-      <figcaption>Scatter Plot 1</figcaption>
-    </figure>
-    <figure style="margin: 10px;">
-      <img src="wireframe2.png" alt="Wireframe Plot 2">
-      <figcaption>Wireframe Plot 2</figcaption>
-    </figure>
-    <figure style="margin: 10px;">
-      <img src="scatter2.png" alt="Scatter Plot 2">
-      <figcaption>Scatter Plot 2</figcaption>
-    </figure>
-    <figure style="margin: 10px;">
-      <img src="wireframe3.png" alt="Wireframe Plot 3">
-      <figcaption>Wireframe Plot 3</figcaption>
-    </figure>
-    <figure style="margin: 10px;">
-      <img src="scatter3.png" alt="Scatter Plot 3">
-      <figcaption>Scatter Plot 3</figcaption>
-    </figure>
-  </div>
-</div>
+The code performs the following steps:
 
-<div>
-  <h3>Outliers</h3>
-  <p>The following proportions represent the number of data points that are more than 2.6 standard deviations away from the mean for each column in the dataset.Then the result is printed for each column in the dataset.
+1. Reads the CSV file and creates a list of column names.
+2. Plots kernel density estimation (KDE) plots for each column in the dataset using Seaborn's kdeplot function.
+3. Creates a heatmap to show the correlation matrix between all pairs of columns in the dataset using Seaborn's heatmap function.
+4. For each pair of columns, creates a 3D wireframe plot and a scatter plot to show the joint probability distribution and the correlation between the two columns, respectively.
+5. Calculates the proportion of data points that are more than 2.6 standard deviations away from the mean for each column in the dataset. This calculation is often used to identify outliers in the dataset. The result is printed for each column in the dataset.
+
+This exploratory data analysis can help identify patterns and trends in the dataset, as well as potential outliers that may need to be further investigated.
