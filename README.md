@@ -24,6 +24,8 @@ The code first loads the dataset into a pandas dataframe and drops the index col
 
 # Data Normalization
 The data is then normalized using the min-max normalization technique. The normalized data is obtained by subtracting the minimum value of each column from each value of that column and then dividing the result by the difference between the maximum and minimum values of that column. The summary statistics of the normalized data are then printed using the `describe()` function. Next, a correlation heatmap and a distribution plot are created for the normalized data.
+
+
 <img width="638" alt="image" src="https://user-images.githubusercontent.com/117291117/231912291-88999664-34dc-4a01-96e3-fa3030e19e7e.png">
 <img width="638" alt="image" src="https://user-images.githubusercontent.com/117291117/231912362-084000e7-9649-4437-aa09-4703fe60e985.png">
 <img width="638" alt="image" src="https://user-images.githubusercontent.com/117291117/231912424-0ecf24c2-9abb-4014-a78a-97912eeac1d8.png">
